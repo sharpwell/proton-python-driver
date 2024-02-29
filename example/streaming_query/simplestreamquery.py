@@ -1,6 +1,6 @@
 from proton_driver import client
 
-c = client.Client(host='127.0.0.1', port=8463, password=proton)
+c = client.Client(host='127.0.0.1', port=8463, password='proton')
 
 # create a random stream if not exist
 c.execute("CREATE RANDOM STREAM IF NOT EXISTS"
